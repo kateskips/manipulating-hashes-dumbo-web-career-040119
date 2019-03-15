@@ -7,7 +7,7 @@ def second_challenge
   }
 
  groceries.each do|type,item|
- item.values
+ item.values_at
  binding.pry
  end
 end
