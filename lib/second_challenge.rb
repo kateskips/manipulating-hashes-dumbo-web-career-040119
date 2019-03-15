@@ -6,6 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
- groceries.values_at(keys)
+ groceries.values_at(dairy,vegetable,meat,grains)
 end
 
