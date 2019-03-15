@@ -7,5 +7,5 @@ def second_challenge
   }
 
  groceries.values_at(dairy:,vegetable:,meat:,grains:)
- 
+ end
 end
