@@ -7,5 +7,6 @@ def second_challenge
   }
 
  groceries.values
+ groceries.flatten
  
 end
