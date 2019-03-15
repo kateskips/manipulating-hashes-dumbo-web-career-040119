@@ -6,9 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
- groceries.each do|type,item|
-   item.map do|food|
-   binding.pry
-   end
+ groceries.values.join
   end
 end
