@@ -8,6 +8,7 @@ def second_challenge
 
  groceries.each do|type,item|
    item.map do|food|
+   binding.pry
    end
   end
 end
