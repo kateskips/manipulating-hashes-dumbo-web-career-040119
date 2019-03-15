@@ -7,7 +7,7 @@ def second_challenge
   }
 
  groceries.each do|type,item|
-   items.map do|food|
+   item.map do|food|
    end
   end
 end
