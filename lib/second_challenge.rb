@@ -6,6 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
- groceries.values
-binding.pry
+ groceries.values do |type, item|
+ end
 end
